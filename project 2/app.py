@@ -1,6 +1,9 @@
 import asyncio
 import os
 import tempfile
+from dotenv import load_dotenv
+
+load_dotenv()
 
 import requests
 import streamlit as st
